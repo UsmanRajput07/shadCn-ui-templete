@@ -18,8 +18,8 @@ import { Toaster } from "@/components/ui/sonner";
 import useAuthTokenStore from "@/zustand/store";
 
 export default function Layout() {
-  const token = useAuthTokenStore((state) => state.token);
-  if (token === "") return <Navigate to="/" replace />;
+  // const token = useAuthTokenStore((state) => state.token);
+  // if (token === "") return <Navigate to="/" replace />;
   return (
     <SidebarProvider
       style={
